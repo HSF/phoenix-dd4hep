@@ -51,7 +51,10 @@ dd4hep_set_compiler_flags()
 
 file(GLOB sources CONFIGURE_DEPENDS src/*.cpp)
 dd4hep_add_plugin(${a_lib_name}
-  SOURCES ${sources}
+  SOURCES
+        src/DD4hepTrajectoryWriterEventAction.cpp
+        src/TestSteppingAction.cpp
+        src/TextDumpingSteppingAction.cpp
   USES ROOT::Core ROOT::Gdml
   )
 

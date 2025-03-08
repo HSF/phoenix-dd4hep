@@ -77,8 +77,7 @@ namespace dd4hep {
                 info("+++ Total Steps: %ld", m_total_steps);
                 info("+++ Total Tracks written: %ld", m_total_tracks);
                 info("+++ Total Events written: %ld", m_total_events);
-                info("+++ Per Event steps: %ld, tracks: %ld",
-                     (int) m_total_steps/m_total_events, (int) m_total_tracks/m_total_events);
+                // info("+++ Per Event steps: %ld, tracks: %ld", (int) m_total_steps/m_total_events, (int) m_total_tracks/m_total_events);
 
                 // Do we need it here? It should be done automatically
                 if(m_output_file.is_open() && m_output_file.good()) {
