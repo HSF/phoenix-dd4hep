@@ -1,6 +1,10 @@
 # Phoenix DD4Hep
 
-Plugin for DD4Hep that allows to dump stepping action and then convert to Phoenix json format. 
+Plugin for DD4Hep that allows to dump trajectories then convert to Phoenix json format.
+
+![eic-event.png](eic-event.png)
+
+
 
 ## Usage
 
