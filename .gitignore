@@ -182,3 +182,5 @@ cython_debug/
 
 # IntelliJ IDEs project space
 .idea/*
+
+tmp/
